@@ -1,0 +1,13 @@
+body {
+	background-image: url("lilpump.jpg");
+	background-size:cover;
+}
+h1 {
+	color:white;
+	text-align:center;
+}
+
+a {
+	color:white;
+	text-align:center;
+}
