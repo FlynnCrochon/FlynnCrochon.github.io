@@ -65,7 +65,13 @@ h2 {
     border:5px solid #BEBEBE;
     text-decoration: none;
     font-weight: bold;
+}
 
+
+
+
+
+.gallery div:hover {
 }
 
 body {
