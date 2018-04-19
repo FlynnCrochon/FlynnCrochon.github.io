@@ -27,17 +27,22 @@ h2 {
 
 
 .gallery img {
+
+    
+}
+
+.img {
+
     width: auto;
     text-align:center;
 
     border: 5px solid #BEBEBE;
     
 
-    border-radius: 25px 25px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 
     
     transition: 0.3s;
-    
 }
 
 
@@ -73,6 +78,9 @@ h2 {
     */
 }
 
+.desc:hover > .img {
+    border:5px solid grey;
+}
 
 .gallery:hover > .desc {
     border: 5px solid grey;
@@ -82,18 +90,10 @@ h2 {
     transition: 0.3s;
 }
 
-.desc:hover > .gallery img {
-    border:5px solid grey;
-}
-
-
 .gallery img:hover {
     
     border: 5px solid grey;
-
-    
 }
-
 
 .desc {
     padding: 15px;
@@ -110,12 +110,6 @@ h2 {
     border-radius: 0px 0px 10px 10px;
 }
 
-
-
-
-
-.gallery div:hover {
-}
 
 body {
     background-image:url("background4.jpg");
