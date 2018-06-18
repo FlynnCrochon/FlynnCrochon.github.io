@@ -10,11 +10,17 @@ body {
 }
 .heading h1{
 	color: black;
-	background-color:rgba(255, 255, 255, 0.7);
+	background-color:rgba(255, 255, 255, 0.3);
+	position: absolute;
+	width:100%;
+	text-align: center;
 }
 .heading-container {
-	background-image: url(heading-back.jpg);
-	background-size: cover;
+	/* background-image: url(heading-back.jpg);
+	background-size: cover; */
+
+	background-color: #E09E00;	
+
 	position: absolute;
 	left: 0;
 	height: 300px;
@@ -34,6 +40,59 @@ body {
 	background-color:rgba(0, 0, 0, 0.2);
 }
 
+.word {
+	background-color:gold;
+	color: black;
+	font-size: 30px;
+}
+
+.word h2 {
+	width: 100%;
+	font-size:50px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.word p {
+	width: 100%;
+
+}
+
+.word img {
+	text-align: center;
+}
+
+.word form input {
+	height: 35px;
+}
+
+.word form button {
+	height: 60px;
+	text-align: center;
+	width:100%;
+
+}
+
+.word-bank {
+	width:100%;
+
+}
+
+.word-bank div{
+	text-align: center;	
+	width: 25%;
+	height:100px;
+	float:left;
+	box-sizing: border-box;
+	border:1px solid black;
+
+}
+
+.form {
+	margin-left: 1%;
+}
+
 .crossword {
 	position: relative;
 
@@ -45,19 +104,32 @@ body {
 
 }
 
+#right {
+	color:black;
+	background-color:green;
+	width:100%;
+	text-align: center;
+}
 
+#wrong {
+	color:black;
+	background-color:red;
+	width:100%;
+	text-align: center;
+}
 
 .block h2 {
 	width: 100%;
-	font-size:20px;
+	font-size:30px;
 }
 
 .block p {
 	width: 100%;
-	font-size:20px;
+	font-size:30px;
 
 }
 
 .block img {
 	text-align: center;
+	border: 5px solid black;
 }

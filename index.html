@@ -5,8 +5,8 @@
 	<title>Inca</title>
 </head>
 <body>
-
-
+ 
+  
 <div class = "heading-container">
 	<div class = "heading">
 		<h1>
@@ -16,16 +16,61 @@
 </div>
 
 
+
 <div class = "container">
+
+	<div class = "word">
+	<h2>Word Bank</h2>
+	<div class = "word-bank">
+		<div>Sapa Inca </div><div> Ayllu </div><div> Christianity </div><div> Commoners </div><div> Villac Umu </div><div> Record Keepers </div><div> Tax Collector </div><div> Artisans </div><div> Curacas </div><div> Army </div> <div>Royal Family</div> <div>Inca</div>
+	</div>
+
+
+	<p>
+	<form class = form>
+		<input type="text" name="" id = "input001"> was the highest class of the Inca society. <br><br>
+
+		<input type="text" name="" id = "input002"> made up the basic unity of the Inca society. They all worked together as if they were one family. <br><br>
+		Inca religion was partially altered to <input type="text" name="" id = "input003">, which effected their Social Structure. <br><br>
+		<input type="text" name="" id = "input004"> were the most common and populated class within the Incan empire. <br><br>
+		<input type="text" name="" id = "input005"> was the highest priest and was able to speak to their sun god Inti. <br><br>
+		<input type="text" name="" id = "input006"> were equally ranked with the tax keepers. <br><br>
+		Every family had a <input type="text" name="" id = "input007"> which monitored them. <br><br>
+		<input type="text" name="" id = "input008"> were commoners which worked on crafts such as pottery. <br><br>
+		<input type="text" name="" id = "input009"> lead the tribes that were conquered by the Inca. <br><br>
+
+		A group of 200,000 men who protected the empire were called the <input type="text" name="" id = "input010"> <br><br>
+
+		Direct relatives to the Sapa Inca were known as the in <input type="text" name="" id = "input011"> <br><br>
+		
+		
+		<br>
+		<text id = "input111"></text>
+		<br>
+
+		<button type = "button" value="submit" onclick="function1()">Submit</button>
+		
+	</form>
+</p>
+</div>
+
 <div class = "block">
 	<h2>Intro</h2>
-	<p>The Inca Empire is a civilization from years 1438-1533 AD.  The administrative, political and military centre was located in modern-day Peru.  It’s political and administrative structure “was the most sophisticated found among native peoples” in the Americas.</p>
+	<p>
+		The Inca Empire is a civilization from years
+		1438-1533 AD. The administrative, political
+		and military centre was located in
+		modern-day Peru. It’s political and administrative structure
+		“was the most sophisticated found among
+		native peoples” in the Americas.
+	</p>
 
 
 </div>
 
 <div class = "block">
 	<h2>The Social Pyramid</h2>
+	<p>Artwork of Sapa Inca being ca[tured by the Spaniards</p>
 	<img src="pyramid.png" class = "img">
 </div>
 
@@ -138,10 +183,154 @@
 </div>
 
 <div class = "block">
+	<h2>Changes in Government</h2>
+	<p>After the Spanish killed Atahualpa, as shown in our primary source, the Incan people were still allowed their own king.  However, this king was a puppet.  The Spanish people, with the king on their side altered the government in a way to give Spain control. There were a number of uprisings attempted by the Incan citizens, but these failed resulting in complete Spanish power over their nation.</p>
+
+	<p>A key change in government after Spain gained control was the “Mita” policy.  This system made all people work for a certain period.  This labour was free for the government.  When someone’s turn came (Mita means term), they joined Mita for 65 days.  Government took care of the family who had people absent working in Mita.</p>
+
+</div>
+
+<div class = "block">
+	<h2>Extra Mita Info</h2>
+	<p>When working for Mita, people worked on: <br>
+Houses <br>
+Fields <br>
+Monuments <br>
+Mines <br>
+However, the Mita system was misused by the Spanish for mining gold and silver for the crown.  People were also baptised.  
+Ultimately, the Mita system became slavery under the façade of educating and converting Inca society.
+</p>
+</div>
+
+<div class = "block">
 	<h2>Changes in Social Structure</h2>
 	<p>After the Inca was taken over by Spain, their religion was partially altered to Christianity.  This meant that their priests which used to be extremely high ranked within their society lost a lot of their power.  </p>
 </div>
+</div>
 
+
+<script type="text/javascript">
+	var input001;
+	var input002;
+	var input003;
+	var input004;
+	var input005;
+	var input006;
+	var input007;
+	var input008;
+	var input009;
+	var input010;
+	var input011;	
+
+	function function1() {
+		input001 = document.getElementById('input001').value;
+		input002 = document.getElementById('input002').value;
+		input003 = document.getElementById('input003').value;
+		input004 = document.getElementById('input004').value;
+		input005 = document.getElementById('input005').value;
+		input006 = document.getElementById('input006').value;
+		input007 = document.getElementById('input007').value;
+		input008 = document.getElementById('input008').value;
+		input009 = document.getElementById('input009').value;
+		input010 = document.getElementById('input010').value;
+		input011 = document.getElementById('input011').value;
+
+		if (input001 == "Sapa Inca" || input001 == "sapa Inca" || input001 == "Sapa inca" || input001 == "sapa inca") {
+			var a = 1;
+		}
+		else {
+			var a = 0;
+		}
+
+		if (input002 == "Ayllu" || input002 == "ayllu") {
+			var b = 1;
+		}
+		else {
+			var b = 0;
+		}
+
+		if (input003 == "Christianity" || input003 == "christianity") {
+			var c = 1;
+		}
+		else {
+			var c = 0;
+		}
+
+		if (input004 == "Commoners" || input004 == "commoners") {
+			var d = 1;
+		}
+		else {
+			var d = 0;
+		}
+		
+		if (input005 == "Villac Umu" || input005 == "Villac umu" || input005 == "villac Umu" || input005 == "villac umu") {
+			var e = 1;
+		}
+		else {
+			var e = 0;
+		}
+
+		if (input006 == "Record Keepers" || input006 == "Record keepers" || input006 == "record Keepers" || input006 == "record keepers") {
+			var f = 1;
+		}
+		else {
+			var f = 0;
+		}
+
+		if (input007 == "Tax Collector" || input007 == "Tax collector" || input007 == "tax Collector" || input007 == "tax collector") {
+			var g = 1;
+		}
+		else {
+			var g = 0;
+		}
+
+		if (input008 == "Artisans" || input008 == "artisans") {
+			var h = 1;
+		}
+		else {
+			var h = 0;
+		}
+
+		if (input009 == "Curacas" || input009 == "curacas") {
+			var i = 1;
+		}
+		else {
+			var i = 0;
+		}
+
+		if (input010 == "army" || input010 == "Army") {
+			var j = 1;
+		}
+		else {
+			var j = 0;
+		}
+
+		if (input011 == "Royal Family" || input011 == "Royal family" || input011 == "royal Family" || input011 == "royal family") {
+			var k = 1;
+		}
+		else {
+			var k = 0;
+		}
+
+
+		if (a == 1 && b == 1 && c == 1 && d == 1 && e == 1 && f == 1 && g == 1 && h == 1 && i == 1 && j == 1 && k == 1) {
+
+			document.getElementById('input111').innerHTML;
+			alert("Correct");
+		}
+		else {
+			document.getElementById('input111').innerHTM;
+			alert("Incorrect");
+		}
+
+
+
+
+
+	}
+</script>
+
+<!--
 <div class = "block">
 
 <h2>Crossword</h2>
@@ -149,6 +338,7 @@
 <iframe src="http://www.classtools.net/crossword/201806-ge57Sh" class = "iframe"></iframe>
 	
 </div>
+-->
 
 </div>
 
@@ -160,3 +350,7 @@
 </body>
 
 </html>
+
+
+
+
