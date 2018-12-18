@@ -22,7 +22,8 @@ h2 {
 }
 
 .container {
-    text-align: center;  
+    text-align: center; 
+
 }
 
 
@@ -124,6 +125,20 @@ h2 {
     height:100%;
 }
 
+.header {
+    height:10px;
+    position: relative;
+    width:100%;
+    left:0;
+    top:0;
+}
+.sub {
+    position: absolute;
+    right: 10px;
+}
+.plug {
+right:0;
+}
 
 @font-face {
     font-family:"bebas";
