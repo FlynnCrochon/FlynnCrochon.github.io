@@ -90,9 +90,10 @@ h2 {
     border: 5px solid grey;
 }
 
-.gallery > .desc {
-    transition: 0.3s;
+.gallery:hover .desc {
+    border: 5px solid grey;
 }
+
 
 /*
 .gallery img:hover {
@@ -112,6 +113,8 @@ h2 {
     background-color:white;
     text-decoration: none;
     font-weight: bold;
+    border: 5px solid #BEBEBE;
+    transition: 0.3s;
 
     border-radius: 0px 0px 10px 10px;
 }
